@@ -13,6 +13,8 @@
 		E1BB7D9E1F3AAEF200FEF30C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BB7D9D1F3AAEF200FEF30C /* Assets.xcassets */; };
 		E1BB7DA11F3AAEF200FEF30C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BB7D9F1F3AAEF200FEF30C /* LaunchScreen.storyboard */; };
 		E1BB7DAC1F3AAEF200FEF30C /* AlertViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB7DAB1F3AAEF200FEF30C /* AlertViewDemoTests.swift */; };
+		E1BB7DB71F3AAF5700FEF30C /* BaseAlertViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB7DB61F3AAF5700FEF30C /* BaseAlertViewComponent.swift */; };
+		E1BB7DB91F3AB35900FEF30C /* BaseAlertViewCofig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB7DB81F3AB35900FEF30C /* BaseAlertViewCofig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		E1BB7DA71F3AAEF200FEF30C /* AlertViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BB7DAB1F3AAEF200FEF30C /* AlertViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewDemoTests.swift; sourceTree = "<group>"; };
 		E1BB7DAD1F3AAEF200FEF30C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1BB7DB61F3AAF5700FEF30C /* BaseAlertViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseAlertViewComponent.swift; path = Alert/BaseAlertViewComponent.swift; sourceTree = "<group>"; };
+		E1BB7DB81F3AB35900FEF30C /* BaseAlertViewCofig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAlertViewCofig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				E1BB7D9D1F3AAEF200FEF30C /* Assets.xcassets */,
 				E1BB7D9F1F3AAEF200FEF30C /* LaunchScreen.storyboard */,
 				E1BB7DA21F3AAEF200FEF30C /* Info.plist */,
+				E1BB7DB61F3AAF5700FEF30C /* BaseAlertViewComponent.swift */,
+				E1BB7DB81F3AB35900FEF30C /* BaseAlertViewCofig.swift */,
 			);
 			path = AlertViewDemo;
 			sourceTree = "<group>";
@@ -198,7 +204,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1BB7D991F3AAEF200FEF30C /* ViewController.swift in Sources */,
+				E1BB7DB91F3AB35900FEF30C /* BaseAlertViewCofig.swift in Sources */,
 				E1BB7D971F3AAEF200FEF30C /* AppDelegate.swift in Sources */,
+				E1BB7DB71F3AAF5700FEF30C /* BaseAlertViewComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

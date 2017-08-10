@@ -11,3 +11,34 @@ import UIKit
 class BaseAlertViewCofig: NSObject {
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
